@@ -1,0 +1,77 @@
+body {
+    margin: 30px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Courier New, Courier, monospace
+}
+
+.avatar {
+    width: 140px;
+}
+
+.card {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    background: #cdb4db;
+    color: white;
+    border-bottom: 6px solid #a2d2ff;
+    border-block-end: 20px solid #a2d2ff;
+    border-radius: 10px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+p:hover, h3:hover, h4:hover {
+  font-size: 150%;
+}
+
+img:hover {
+    animation: vibrate 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+
+/*
+Stretch goals:
+Find other ways you can personalize font-size: 150%
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
